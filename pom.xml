@@ -12,6 +12,7 @@
     <modules>
         <module>config-service</module>
         <module>message-service</module>
+        <module>eureka-service</module>
     </modules>
 
 </project>
