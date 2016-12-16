@@ -1,1 +1,5 @@
+server:
+  contextPath: /messages
+
+
 message: Hello from configuration service

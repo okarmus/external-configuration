@@ -13,6 +13,7 @@
         <module>config-service</module>
         <module>message-service</module>
         <module>eureka-service</module>
+        <module>gateway</module>
     </modules>
 
 </project>

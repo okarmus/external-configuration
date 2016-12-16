@@ -1,0 +1,13 @@
+server:
+  port: ${PORT:4000}
+
+
+zuul:
+  ignoredServices: '*'
+
+  routes:
+    message-service:
+      path: /messages/**
+      url: http://localhost:8080
+      stripPrefix: false
+      sensitiveHeaders:
